@@ -28,3 +28,15 @@ Basic widget tests are located in `test/`. Run them with:
 flutter test
 ```
 
+### Building for Release
+
+Use the standard Flutter build commands to generate release binaries:
+
+```bash
+flutter build apk --release
+flutter build ios --release
+```
+
+Ensure Firebase configuration files are present before building for each
+platform.
+
