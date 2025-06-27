@@ -1,0 +1,19 @@
+name: zeroseiplanet_app
+description: A Flutter wrapper for www.zeroseiplanet.it with push notifications.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  webview_flutter: ^4.5.0
+  firebase_core: ^2.15.0
+  firebase_messaging: ^14.7.0
+  flutter_local_notifications: ^16.1.0
+
+flutter:
+  uses-material-design: true
